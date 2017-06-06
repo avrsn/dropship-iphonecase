@@ -11,7 +11,20 @@
 <!-- Header Area -->
   <div>
     <header class="Banner">
-    <img id= "logo" src="anime case.jpg" alt="A N I M E  C A S E" >
+    <img id= "logo" src="anime case.jpg" alt="A N I M E  C A S E">
+    <form id="searchBar" action="" method="">
+
+            <!-- Search -->
+            <br>   
+            <input type="text" id="searchItem" class="col-sm-12 col-md-07 col-lg-07" name="searchBar"
+            autofocus
+            required
+            placeholder="Dragonball Z; Sonic"
+            />
+
+              <!-- Submit -->
+            <input id="submit" onClick= "Mysql();return false;"  class="col-sm-12 col-md-02 col-lg-02 send" type="submit" value="Submit" />
+        </form>
     </header> 
   </div>
 
@@ -127,9 +140,19 @@
       <h2>The company moto</h2>
       <br>
       <div id="footerLinks">
-      <a href="#">Home</a><li></li>
-      <a href="#">Pricing</a><li></li>
+        <a href="index.html">Home </a><span>•</span>
+        <a href="#">Pricing </a><span>•</span>
+        <a href="#">About </a><span>•</span>
+        <a href="#">Faq </a><span>•</span>
+        <a href="#">Contact</a><span></span>
+        <br> 
+        <br>
       </div>
+
+      <div id="companyName">
+        <p>Company Name &copy; 2017</p>
+      </div>
+
     </footer>
     <!-- END OF FOOTER -->
   </body>
