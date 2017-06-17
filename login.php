@@ -1,7 +1,7 @@
 <?php // login.php
 
 $hn = 'localhost';
-$db = 'animecase';
+$db = 'products';
 $un = 'michael';
 $pw = 'password';
 
