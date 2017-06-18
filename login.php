@@ -1,6 +1,6 @@
 <?php // login.php
 
-$hn = 'localhost';
+$hn = 'localhost/AnimeCase';
 $db = 'products';
 $un = 'michael';
 $pw = 'password';
