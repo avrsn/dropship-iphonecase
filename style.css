@@ -120,3 +120,8 @@ footer{
 table {
 	border: solid 5px;
 }
+
+input {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
